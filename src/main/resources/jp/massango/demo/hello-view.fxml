@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" prefHeight="753.0" prefWidth="1208.0" spacing="20.0" style="-fx-background-color: #43ba43; -fx-background-color: #43ba43; -fx-background-color: #198cc4; -fx-background-color: #198cc4; -fx-background-color: #4a890c;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jp.massango.demo.HelloController">
+<VBox alignment="CENTER" prefHeight="760.0" prefWidth="1208.0" spacing="20.0" style="-fx-background-color: #43ba43; -fx-background-color: #43ba43; -fx-background-color: #198cc4; -fx-background-color: #198cc4; -fx-background-color: #4a890c;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jp.massango.demo.HelloController">
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
   </padding>
@@ -38,7 +38,7 @@
                      <Pane layoutX="378.0" layoutY="126.0" prefHeight="150.0" prefWidth="110.0" style="-fx-background-color: #121212; -fx-border-color: #fff;" />
                      <Pane layoutX="266.0" layoutY="126.0" prefHeight="150.0" prefWidth="110.0" style="-fx-background-color: #121212; -fx-border-color: #fff;" />
                      <Pane layoutX="154.0" layoutY="126.0" prefHeight="150.0" prefWidth="110.0" style="-fx-background-color: #121212; -fx-border-color: #fff;" />
-                     <Pane layoutX="42.0" layoutY="126.0" prefHeight="150.0" prefWidth="110.0" style="-fx-background-color: #121212; -fx-border-color: #fff;" />
+                     <Pane fx:id="inner_fight_card1" layoutX="42.0" layoutY="126.0" prefHeight="150.0" prefWidth="110.0" style="-fx-background-color: #121212; -fx-border-color: #fff;" />
                   </children>
                </Pane>
             </children>
