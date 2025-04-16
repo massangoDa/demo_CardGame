@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="760.0" prefWidth="1208.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jp.massango.demo.StartMenu">
+   <children>
+      <Label layoutY="87.0" prefHeight="121.0" prefWidth="1208.0" style="-fx-alignment: center;" text="DEMO_CARD_GAME" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <Button fx:id="start_button" layoutX="378.0" layoutY="330.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="449.0" text="Start">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
